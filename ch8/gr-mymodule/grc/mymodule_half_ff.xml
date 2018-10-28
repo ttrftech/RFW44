@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<block>
+  <name>Half</name>
+  <key>mymodule_half_ff</key>
+  <category>[mymodule]</category>
+  <import>import mymodule</import>
+  <make>mymodule.half_ff()</make>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

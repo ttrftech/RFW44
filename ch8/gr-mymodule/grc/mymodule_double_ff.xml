@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<block>
+  <name>Double</name>
+  <key>mymodule_double_ff</key>
+  <category>[mymodule]</category>
+  <import>import mymodule</import>
+  <make>mymodule.double_ff()</make>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>
